@@ -1,18 +1,8 @@
 # Calories-Burnt-Prediction-using-Machine-Learning
-In today's health-conscious society, individuals are increasingly 
-adopting fitness routines to maintain a healthy lifestyle. 
-One crucial aspect of fitness is understanding 
-the number of calories burned during physical activities. 
-Predicting the calories burned can aid individuals 
-in optimizing their workout routines and achieving 
-their fitness goals. Machine learning 
-models can play a vital role in 
-accurately estimating the calories burnt based 
-on various personal and activity-related features.
-
-Objective:
-The goal of this project is to develop a machine learning 
-model that predicts the number of calories 
-burned during physical activities. 
-The model will utilize user-specific information 
-and activity-related features to provide accurate calorie predictions.
+Objective: The primary goal is to estimate the calories burnt based on various personal and activity-related features. These features include user-specific information (such as gender, age, height, weight) and activity-related data (duration, heart rate, body temperature).
+Datasets: The project uses two datasets:
+Exercise Dataset: Contains information related to physical activities, including features like duration, heart rate, and body temperature.
+Calories Dataset: Includes data on the number of calories burned during specific activities.
+Model Development: The project leverages machine learning techniques to build a predictive model. By training on the provided datasets, the model learns patterns and relationships between features and calorie burn.
+User Input: When a user provides input data (e.g., gender, age, height, weight, duration, heart rate, body temperature), the model predicts the corresponding calories burnt.
+Application: This prediction can be valuable for individuals seeking to optimize their workout routines, monitor fitness goals, or manage weight loss.
